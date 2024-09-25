@@ -4,21 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Все про акул</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <header>
+        <h1>Все про акул</h1>
+        <p>Ласкаво просимо у світ акул! Ці величні морські істоти плавають у наших океанах більше 400 мільйонів років. Ця сторінка надасть вам глибоку інформацію про їх характеристики, види, середовище проживання та багато іншого.</p>
+    </header>
 
-    <h1>Все про акул</h1>
-    <p>Ласкаво просимо у світ акул! Ці величні морські істоти плавають у наших океанах більше 400 мільйонів років. Ця сторінка надасть вам глибоку інформацію про їх характеристики, види, середовище проживання та багато іншого.</p>
-    
     <section>
         <h2>Дізнайтеся більше про акул</h2>
         <p>Щоб дізнатися більше цікавих фактів про акул, відвідайте цей GitHub репозиторій: <a href="https://github.com/vlladislavii/IC-32_Vladyslav_Kiselar_Web_Hometasks" target="_blank">IC-32_Vladyslav_Kiselar_Web_Hometasks</a>.</p>
     </section>
 
     <section>
-        <h2>Характеристики акул</h2>
-        <p>Акули - це група хрящових риб, які характеризуються скелетом із хряща. Вони мають кілька рядів зубів і відомі своєю потужною здатністю до плавання. Більшість акул - хижаки, які харчуються рибою, кальмарами та навіть морськими ссавцями.</p>
-        <p>Акули зустрічаються у всіх океанах світу і бувають різних форм і розмірів - від маленької карликової акули до гігантської китової акули.</p>
+        <h2>Цікаві факти про акул</h2>
+        <ul class="shark-facts">
+            <li>Акули існують більше 400 мільйонів років!</li>
+            <li>Існує понад 500 видів акул.</li>
+            <li>Акули можуть виявити одну краплю крові в олімпійському басейні.</li>
+            <li>Деякі акули можуть плавати зі швидкістю до 60 км/год (37 миль/год).</li>
+        </ul>
     </section>
 
     <section>
@@ -34,14 +40,25 @@
     <section>
         <h2>Зображення акул</h2>
         <p>Нижче представлені деякі зображення відомих акул:</p>
-
-        <img src="/task1/img/White_shark.jpg" alt="Біла акула" width="300">
-        <img src="https://www.w3schools.com/w3images/sharks.jpg" alt="Карта видів акул" usemap="#shark-map" width="500">
-        <map name="shark-map">
-            <area shape="rect" coords="34,44,270,350" href="#great-white" alt="Біла акула">
-            <area shape="rect" coords="300,44,570,350" href="#whale-shark" alt="Китова акула">
-        </map>
-    </section>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="/task2/img/White_shark.jpg" alt="Біла акула" width="300" height="200">
+                <p>Біла акула</p>
+            </div>
+            <div class="gallery-item">
+                <img src="/task2/img/shark2.jpg" alt="Акула-молот" width="300" height="200">
+                <p>Акула-молот</p>
+            </div>
+            <div class="gallery-item">
+                <img src="/task2/img/shark3.jpg" alt="Китова акула" width="300" height="200">
+                <p>Китова акула</p>
+            </div>
+            <div class="gallery-item">
+                <img src="/task2/img/shark4.jpg" alt="Тигрова акула" width="300" height="200">
+                <p>Тигрова акула</p>
+            </div>
+        </div>
+    </section>    
 
     <section id="table-section">
         <h2>Види акул та факти</h2>
@@ -134,6 +151,10 @@
         <h2>Посилання на HTML-теги</h2>
         <p>Більше інформації про HTML-теги можна знайти за цим <a href="https://w3schoolsua.github.io/tags/index.html" target="_blank">посиланням</a>.</p>
     </section>
+
+    <footer>
+        <p>&copy; 2024 Все про акул. Усі права захищені.</p>
+    </footer>
 
 </body>
 </html>
